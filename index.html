@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammed Danish - PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contanier">
+        <header>
+            <nav>
+                <a href="#" class="logo">Portfolio</a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                </div>
+
+                <button role="menu" aria-label="button" class="menu" onclick="event.currentTarget.classList.toggle('active')">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </header>
+
+        <div id="home" class="content">
+            <div class="hero-text">
+                <h1>Muhammed Danish</h1>
+                <h2 style="color: #0e9acd; font-family: Kumbh Sans;">IoT and Embedded engineer | Data Analyst | Tech enthusiast</h2>
+
+                <div class ="action-button">
+                <div class="linkedin"><a href="https://www.linkedin.com/in/muhammed-danish-z/" class="btn" target="_blank">Linkedin</a></div>
+                <div class="github"><a href="https://github.com/dan-spectre/" class="btn" target="_blank">Github</a></div>
+                </div>
+
+            </div>
+            <div class="hero-img">
+                <img src="./1712418188515.jpeg" alt="Danish" />
+            </div>
+        </div>
+
+        <section id="about" style="width: var(--width); margin: auto; padding: 80px 0; color: white;">
+            <h2 style="font-size: 32px; margin-bottom: 20px; font-family: Kumbh Sans;">About Me</h2>
+            <p style="line-height: 1.6;font-size:20px ;font-family: Kumbh Sans;">
+              I'm a passionate software engineer and technology enthusiast
+              having a experience in IoT based projects and developments with proficiency in languages and tools like Python, Embedded C, Arduino, R, Wokwi, Proteus and Figma design suite with a deep interest AI and Cloud systems and policy.
+
+                <b></b>
+
+
+            </p>
+        </section>
+
+
+        <section id="projects" style="width: var(--width); margin: auto; padding: 80px 0; color: white;">
+            <h2 style="font-size: 32px; margin-bottom: 40px; text-align: left;">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card -->
+                <div class="project-card">
+                    <img src="./toiletsystem.png" alt="Portfolio Website" />
+                    <div class="card-content">
+                        <h3>IoT based Toilet Management System</h3>
+                        <p>This project is designed to provide automated toilet monitoring systems which can be implemented in various large institutions ranging from ational to medical to governmental buildings as well as implementing in public infrastructure. This project demonstrates the use of Proteus for simulation, coding with Arduino IDE and package importing and data input handling from sensors and translating them into usable and tangible output. </p>
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <img src="./download1.jpeg" alt="UI PATH-RPA" />
+                    <div class="card-content">
+                        <h3>UiPath - RPA automation</h3>
+                        <p>RPA email automation streamlines repetitive email tasks using software robots. It can handle activities like reading, replying, forwarding, and organizing emails efficiently. Advanced bots can extract attachments, compile information, and even schedule events automatically.</p>
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <img src="./download.jpeg" alt="HACKATHON" />
+                    <div class="card-content">
+                        <h3>Smart India Hackathon - AgriSense</h3>
+                        <p>Agrisense project is a Smart Poultry Coop management system which allows farmers to monitor the conditions of poultry farms, It's designed to be scalable and adaptable to various poultry farm sizes, aiding in agricultural and poultry productivity.</p>
+                    </div>
+                </div>
+        
+                <div class="project-card">
+                    <img src="./wastemgmt.png" alt="IOT" />
+                    <div class="card-content">
+                        <h3>IoT Smart Waste Management System</h3>
+                        <p>Smart waste management systems using IoT optimize waste collection and disposal processes. Sensors in bins monitor fill levels and send real-time data to waste management teams, ensuring timely collection. IoT-enabled systems reduce operational costs, improve efficiency, and minimize environmental impact. These technologies contribute to cleaner and more sustainable urban environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="skills">
+          <h2>My Skills</h2>
+          <div class="skills-container">
+              <div class="skill-tag">C++</div>
+              <div class="skill-tag">Python</div>
+              <div class="skill-tag">Figma</div>
+              <div class="skill-tag">Illustrator</div>
+              <div class="skill-tag">Weka</div>
+              <div class="skill-tag">Wokwi</div>
+              <div class="skill-tag">Presentation</div>
+              <div class="skill-tag">Oration</div>
+          </div>
+      
+          <ul id="skill-list">
+              <li><strong>Programming:</strong> C++, Python, R</li>
+              <li>
+                  <strong>Tools:</strong>
+                  <ul>
+                      <li style="font-family: Kumbh Sans;";>Design: Figma, Lunacy, Illustrator</li>
+                      <li style="font-family: Kumbh Sans;">Engineering: Proteus, Wokwi</li>
+                      <li style="font-family: Kumbh Sans;">Data Science: Weka, Python</li>
+                  </ul>
+              </li>
+              <li><strong>Soft Skills:</strong> Presentation, Seminars, Oration, Sketching</li>
+          </ul>
+      </section>
+
+
+        <footer>
+            <p style="font-family: Kumbh sSns;">&copy; 2025 Muhammed Danish. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
